@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="6.0.0-develop.2281" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0-preview3.19551.4" />
+  </ItemGroup>
+
+</Project>

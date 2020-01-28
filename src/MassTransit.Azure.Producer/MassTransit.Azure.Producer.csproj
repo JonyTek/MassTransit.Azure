@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="6.0.0-develop.2281" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.0.0-develop.2281" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0-preview3.19553.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MassTransit.Contracts\MassTransit.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
